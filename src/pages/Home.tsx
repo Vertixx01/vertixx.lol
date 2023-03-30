@@ -37,12 +37,18 @@ const Home = () => {
     });
     return (
         <>
-            <div class='grazybg h-full w-full flex justify-center items-center font-coolvetica'>
-                <div class='flex flex-col justify-center items-center'>
-                    <h1 class='text-4xl text-ptext z-10'>Vertixx</h1>
+            <div class='grazybg h-full w-full flex justify-center items-center'>
+                <div class='flex flex-col justify-center items-center z-10'>
+                    <h1 class='text-4xl text-ptext  font-coolvetica'>Vertixx</h1>
                     <div class='flex flex-row gap-2 justify-center items-center'>
-                        <a href='https://github.com/Vertixx01' class='h-8 w-8 z-10'><AiFillGithub color="white" class='h-8 w-8'/></a>
-                        <a href='https://discord.com/users/664133993347940384s' class='h-8 w-8 z-10'><FaBrandsDiscord color="white" class='h-8 w-8'/></a>
+                        <a href='https://github.com/Vertixx01' class='h-8 w-8'><AiFillGithub color="white" class='h-8 w-8'/></a>
+                        <a href='https://discord.com/users/664133993347940384s' class='h-8 w-8'><FaBrandsDiscord color="white" class='h-8 w-8'/></a>
+                    </div>
+                    <span class='w-[99%] h-[0.12rem] bg-ptext rounded-full mt-2'></span>
+                    <div class='flex flex-row gap-2 justify-center items-center text-base'>
+                        <h3 class='text-ptext'>gamer 1%&nbsp;-</h3>
+                        <h3 class='text-ptext'>developer 79%&nbsp;-</h3>
+                        <h3 class='text-ptext'>funny 20%</h3>
                     </div>
                 </div>
             </div>
