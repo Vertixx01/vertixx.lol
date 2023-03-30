@@ -7,6 +7,14 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {},
+    fontFamily: {
+      'coolvetica': ['Coolvetica', 'sans-serif'],
+    },
+    colors: {
+      'primary': '#121212',
+      'secondary': '#1e1e1e',
+      'ptext': '#ffffff',
+    },
   },
   plugins: [],
 };
